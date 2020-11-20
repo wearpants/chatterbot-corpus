@@ -15,10 +15,12 @@ DESCRIPTION = CORPUS.__doc__
 
 setup(
     name='chatterbot-corpus',
-    version=VERSION,
+    version='1.2.0',
     url=URL,
-    download_url='{}/tarball/{}'.format(URL, VERSION),e
+    download_url='{}/tarball/{}'.format(URL, VERSION),
     description=DESCRIPTION,
+    long_description_content_type="text/markdown",
+    long_description_markdown_filename='readme.md',
     author=AUTHOR,
     author_email=AUTHOR_EMAIL,
     packages=[
