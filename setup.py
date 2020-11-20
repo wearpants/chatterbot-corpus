@@ -18,7 +18,7 @@ setup(
     version=VERSION,
     url=URL,
     download_url='{}/tarball/{}'.format(URL, VERSION),
-    setup_requires=['setuptools-markdown'],
+    long_description_content_type="text/markdown",
     long_description_markdown_filename='readme.md',
     description=DESCRIPTION,
     author=AUTHOR,
@@ -51,3 +51,4 @@ setup(
     ],
     test_suite='tests'
 )
+e
