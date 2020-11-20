@@ -17,9 +17,7 @@ setup(
     name='chatterbot-corpus',
     version=VERSION,
     url=URL,
-    download_url='{}/tarball/{}'.format(URL, VERSION),
-    long_description_content_type="text/markdown",
-    long_description_markdown_filename='readme.md',
+    download_url='{}/tarball/{}'.format(URL, VERSION),e
     description=DESCRIPTION,
     author=AUTHOR,
     author_email=AUTHOR_EMAIL,
@@ -51,4 +49,3 @@ setup(
     ],
     test_suite='tests'
 )
-e
